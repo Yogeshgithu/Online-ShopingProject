@@ -1,0 +1,32 @@
+
+<div class="Product-Listes">
+    <h1>***All Product-List***</h1>
+    <a class="notif">{{addProductMessage}}</a>
+    <table>
+        <tr class="sizes">
+            <th>image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Action</th>
+
+
+        </tr>
+
+        <tr  class="sizes" *ngFor="let item of productListed">
+            <td><img class="imges" src="{{item.image}}" /></td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.color}}</td>
+            <td>{{item.Category}}</td>
+            <td>{{item.Description}}</td>
+            <td>
+                <button class="upd" routerLink="/seller-update-product/{{item.id}}">update</button><br>
+                <button class="Del" (click)="deleteProduct(item.id)">Delete</button>
+            </td>
+
+        </tr>
+    </table>
+</div>

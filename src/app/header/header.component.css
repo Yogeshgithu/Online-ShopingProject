@@ -1,0 +1,39 @@
+
+
+
+.nav-link{
+    cursor:pointer;
+} 
+
+#navbarTogglerDemo03 .nav-item {
+ text-decoration: solid black;
+ text-decoration-color: blueviolet;
+ margin-left: 20px;
+ 
+}
+form{
+    margin-right: 40px;
+}
+.navbar-brand{
+    margin-left: 20px;
+    color: blue;
+    font-size:larger;
+}
+
+.suggested-result{
+    position: absolute;
+    display: list-item;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+}
+.suggested-result li{
+    border: 1px solid #dddd;
+    padding: 5px;
+}
+.suggested-result li a{
+    cursor: pointer;
+    color: blueviolet;
+}

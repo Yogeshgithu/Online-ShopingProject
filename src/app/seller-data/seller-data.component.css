@@ -1,0 +1,43 @@
+
+.Product-Listes{
+    text-align:center;
+    
+    margin: auto;
+    flex-direction:column;
+    width: 400px;
+    margin-bottom: 50px;
+    color: blueviolet;
+    margin-top: 20px;
+   display: flex;
+  margin-right: 550px;
+
+    
+
+}
+
+
+      
+table td,table th{
+    border: 1px solid blueviolet;
+    padding: 20px;
+    min-height: 160px;
+    max-width: fit-content;
+}
+
+.imges{
+    width: 90px;
+    height: 70px;
+
+}
+
+.Del{
+    margin-top: 10px;
+    background-color: red;
+}
+.upd{
+    background-color: blue;
+}
+.notif{
+    color: red;
+}
+

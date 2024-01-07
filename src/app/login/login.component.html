@@ -1,0 +1,51 @@
+<div>
+  <div *ngIf="!isShowsLogin">
+    <h2>**User Sign-Up**</h2>
+
+    <form #Usersignup="ngForm" (ngSubmit)="SignUp(Usersignup.value)">
+      <div class="form-group">
+        <label for="email">User name:</label>
+        <input type="text" class="form-control" ngModel name="name" placeholder="Enter username" id="username">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" ngModel name="email" placeholder="Enter email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" ngModel name="password" placeholder="Enter password" id="pwd">
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-success">Sign-Up</button>
+      <a class="togglelink" (click)="onOpenLogin()">Already have account?click here</a>
+    </form>
+
+
+  </div>
+  <!-- loging form-->
+  <div *ngIf="isShowsLogin">
+    <h2>**User Loging**</h2>
+    <p class="error">{{isautherror}}</p>
+    <form #Sellerloging="ngForm" (ngSubmit)="UserLoging(Sellerloging.value)">
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" ngModel #email="ngModel" required name="email"
+          placeholder="Enter email" email id="email">
+        <p><span class="valid-data" *ngIf="email.invalid && email.touched">please Enter valid Email</span></p>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" #password="ngModel" required class="form-control" ngModel name="password"
+          placeholder="Enter password" minlength="3" maxlength="20" id="pwd">
+        <p><span class="valid-data" *ngIf="password.invalid && password.touched">please Enter valid Password</span></p>
+      </div>
+      <button [disabled]="Sellerloging.invalid" type="submit" class="btn btn-success">Login</button>
+      <a class="togglelink" (click)="onOpenSignup()">Want to create account?click here</a>
+    </form>
+  </div>
+</div>

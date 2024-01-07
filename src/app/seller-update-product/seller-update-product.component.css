@@ -1,0 +1,17 @@
+.form-control,button,h1{
+    align-items: center;
+    text-align:start;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blueviolet;
+ 
+
+}
+.p-message{
+    color: green;
+    text-align: center;
+}
