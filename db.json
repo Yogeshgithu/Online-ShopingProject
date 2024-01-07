@@ -1,0 +1,207 @@
+{
+  "seller": [
+    {
+      "name": "yogesh jadhav",
+      "email": "yogesh@gmail.com",
+      "password": "Yogesh@123",
+      "id": 1
+    },
+    {
+      "name": "dinesh jadhav",
+      "email": "dinesh@gmail.com",
+      "password": "Dinesh@123",
+      "id": 2
+    },
+    {
+      "name": "pavan jadhav",
+      "email": "pavan@gmail.com",
+      "password": "Pavan@123",
+      "id": 3
+    },
+    {
+      "name": "chetan jadhav",
+      "email": "chetan@gmail.com",
+      "password": "chetan@123",
+      "id": 4
+    },
+    {
+      "name": "dipak jadhav",
+      "email": "dipak@gmail.com",
+      "password": "dipak@123",
+      "id": 5
+    },
+    {
+      "name": "dipak jadhav",
+      "email": "dipak@gmail.com",
+      "password": "dipak@123",
+      "id": 6
+    },
+    {
+      "name": "shiv jadhav",
+      "email": "shiv@gmail.com",
+      "password": "shiv@123",
+      "id": 7
+    },
+    {
+      "name": "bhatu jadhav",
+      "email": "bhatu@gamil.com",
+      "password": "bhatu@123",
+      "id": 8
+    },
+    {
+      "name": "dipali jadhav",
+      "email": "dipali@gmail.com",
+      "password": "dipali@123",
+      "id": 9
+    },
+    {
+      "name": "nandani jadhav",
+      "email": "nandani@gmail.com",
+      "password": "nadani@123",
+      "id": 10
+    },
+    {
+      "name": "komal khairanar",
+      "email": "komal@gmail.com",
+      "password": "321",
+      "id": 11
+    }
+  ],
+  "product": [
+    {
+      "name": "Apple iPhone 14",
+      "price": "15000",
+      "color": "red",
+      "Category": "mobile",
+      "Description": "Bank Offer10% off on HDFC Bank Credit Card EMI Transactorders ",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70",
+      "id": 2
+    },
+    {
+      "name": " Electric Cycle",
+      "price": "199",
+      "color": "white",
+      "Category": "Single Speed Lithium-ion",
+      "Description": "The Nuze i3 is a unisex Electric Bicycle which is ideal for city commutes and fitness rides. ",
+      "image": "https://rukminim2.flixcart.com/image/832/832/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=70",
+      "id": 3
+    },
+    {
+      "name": "Mirrorless Camera ",
+      "price": "5000",
+      "color": "Black",
+      "Category": "Camera ",
+      "Description": "SONY Alpha ILCE-6100Y APS-C Mirrorless Camera with Dual Lens 16-50 mm & 55-210 mm Zoom Featuring Eye AF and 4K movie recording  (Black)",
+      "image": "https://rukminim2.flixcart.com/image/832/832/k3q76a80/camera/x/u/e/sony-apsc-ilce-6100y-b-in5-mirrorless-original-imafm6msr4fghzfw.jpeg?q=70",
+      "id": 4
+    },
+    {
+      "name": "Stand Jhula",
+      "price": "3000",
+      "color": "Yellow",
+      "Category": "",
+      "Description": "Furniture kart Luxury Hammock Swing with Stand Jhula Brown with Yellow Cushions Steel Large Swing  (Brown, Yellow, Pack of 4, DIY(Do-It-Yourself))",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/hammock-swing/g/6/2/200-36-brown-with-flower-furniture-kart-original-imagga7rf3xtnzfh.jpeg?q=70",
+      "id": 5
+    },
+    {
+      "name": "Suitcase (66 cm)",
+      "price": "500",
+      "color": "blue",
+      "Category": "Suitcase",
+      "Description": "Medium Check-in Suitcase (66 cm) - ZENO 66 - Teal",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/suitcase/y/p/g/-original-imagrngxhzmrhn3m.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "name": "Acoustic Guitar ",
+      "price": "4000",
+      "color": "Blue",
+      "Category": "Guitar ",
+      "Description": "Medellin MED-BLU-C Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue)",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kr3tj0w0/acoustic-guitar/f/d/d/med-blu-c-medellin-original-imag4yumsu5qmwca.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "name": "Silver Jewel Set ",
+      "price": "6000",
+      "color": "Silver",
+      "Category": "Jewel",
+      "Description": "The jewel set includes a necklace, two earrings, and a maang tikka, providing a complete adornment set for you",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kqco5u80/jewellery-set/g/c/h/780-r-a-enterprises-original-imag4dyzceaqhkhp.jpeg?q=70",
+      "id": 8
+    },
+    {
+      "name": "Washing Machine ",
+      "price": "7000",
+      "color": "Black",
+      "Category": "Machine ",
+      "Description": "Thomson 7.5 kg 5 Star Aqua Magic Semi Automatic Top Load Washing Machine Black, Grey  (TSA7500SP)",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/s/j/j/-original-imagt9egtzq5b3zy.jpeg?q=70",
+      "id": 9
+    }
+  ],
+  "user": [
+    {
+      "name": " yogesh jadhav",
+      "email": "yogesh@gmail.com",
+      "password": "Yogesh@123",
+      "id": 1
+    },
+    {
+      "name": "dinesh jadhav",
+      "email": "dinesh@123",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "dipak jadhav",
+      "email": "dipak@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "ramesh",
+      "email": "ramesh@123",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "gopal jadhav",
+      "email": "gopal@123",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "chetan jadhav",
+      "email": "chetan@gmail.com",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "Apple iPhone 14",
+      "price": "15000",
+      "color": "red",
+      "Category": "mobile",
+      "Description": "Bank Offer10% off on HDFC Bank Credit Card EMI Transactorders ",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70",
+      "productId": 2,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Acoustic Guitar ",
+      "price": "4000",
+      "color": "Blue",
+      "Category": "Guitar ",
+      "Description": "Medellin MED-BLU-C Acoustic Guitar Linden Wood Rosewood Right Hand Orientation  (Blue)",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kr3tj0w0/acoustic-guitar/f/d/d/med-blu-c-medellin-original-imag4yumsu5qmwca.jpeg?q=70",
+      "productId": 7,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "order": []
+}
